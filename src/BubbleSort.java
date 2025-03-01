@@ -28,6 +28,7 @@ public class BubbleSort {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
+        //Bubble sort
         bubbleSort(arr);
 
         System.out.println("Sorted array:");
