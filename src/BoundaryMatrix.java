@@ -18,16 +18,16 @@ public class BoundaryMatrix {
             for (int i = 1; i < R; i++) {
                 System.out.print(arr[i][C - 1] + " ");
             }
-            if (R > 1) {
+
                 for (int i = C - 2; i >= 0; i--) {
                     System.out.print(arr[R - 1][i] + " ");
                 }
-            }
-            if (C > 1) {
+
+            
                 for (int i = R - 2; i > 0; i--) {
                     System.out.print(arr[i][0] + " ");
                 }
-            }
+
         }
     }
     public static void main(String[] args){
